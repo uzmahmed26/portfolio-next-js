@@ -14,7 +14,7 @@ const Footer = () => {
           <div className="flex items-center">
           <a className="flex title-font font-medium items-center md:justify-start justify-center text-gray-900" href="https://www.youtube.com/@StormBrain26">
             <Image
-              src={require("../../../public/assets/picture/channels4_profile.jpg")}
+              src={require("/assets/picture/channels4_profile.jpg")}
               alt="Storm Brain"
               width={100}
               height={100}
