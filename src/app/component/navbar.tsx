@@ -10,7 +10,7 @@ const Navbar = () => {
         <div className="container mx-auto flex flex-wrap p-2 flex-col md:flex-row items-center">
           <a className="flex title-font font-bold items-center text-blue-900 mb-4 md:mb-0" href="https://www.youtube.com/@StormBrain26">
             <Image 
-              src={require("../../../public/assets/picture/channels4_profile.jpg")}
+              src={("/assets/picture/channels4_profile.jpg")}
               alt="Storm Brain"
               width={100}
               height={100}

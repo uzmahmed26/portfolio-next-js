@@ -18,7 +18,9 @@ const Project = () => {
                 <Image
                   alt="gallery"
                   className="absolute inset-0 w-full h-full object-containt object-center"
-                  src={require("../../../public/assets/picture/Web-Design-.png")}
+                  src={("/assets/picture/Web-Design-.png")}
+                  width={400}  // Dynamic value with curly brackets
+                  height={400}  // Dynamic value with curly brackets
                 />
                 <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-gray-200 opacity-0 hover:opacity-100">
                   <h2 className="tracking-widest text-sm title-font font-medium text-blue-500 mb-1">
@@ -28,7 +30,7 @@ const Project = () => {
                     Website
                   </h1>
                   <p className="leading-relaxed line-clamp-2">
-                  "I specialize in creating visually engaging and user-friendly websites, blending creativity with functionality. Each site I design focuses on clean aesthetics, responsive layouts, and seamless navigation, ensuring a smooth user experience across all devices. Whether it's a portfolio, business site, or an interactive platform, my goal is to build websites that not only look great but also meet the specific needs of clients and users alike."
+                  I specialize in creating visually engaging and user-friendly websites, blending creativity with functionality. Each site I design focuses on clean aesthetics, responsive layouts, and seamless navigation, ensuring a smooth user experience across all devices. Whether it is a portfolio, business site, or an interactive platform, my goal is to build websites that not only look great but also meet the specific needs of clients and users alike.
                   </p>
                   <Link
                     target="_blank"
@@ -46,7 +48,9 @@ const Project = () => {
                 <Image
                   alt="gallery"
                   className="absolute inset-0 w-full h-full object-cover object-center"
-                  src={require("../../../public/assets/picture/atm-insert-card.jpg")}
+                  src={("/assets/picture/atm-insert-card.jpg")}
+                  width={400}  // Dynamic value with curly brackets
+                  height={400}  // Dynamic value with curly brackets
                 />
                 <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-gray-200 opacity-0 hover:opacity-100">
                   <h2 className="tracking-widest text-sm title-font font-medium text-blue-500 mb-1">
@@ -74,7 +78,9 @@ const Project = () => {
                 <Image
                   alt="gallery"
                   className="absolute inset-0 w-full h-full object-cover object-center bg-sky-600"
-                  src={require("../../../public/assets/picture/cal.png")}
+                  src={("/assets/picture/cal.png")}
+                  width={400}  // Dynamic value with curly brackets
+                  height={400}  // Dynamic value with curly brackets
                 />
                 <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-gray-200 opacity-0 hover:opacity-100">
                   <h2 className="tracking-widest text-sm title-font font-medium text-blue-500 mb-1">
@@ -102,7 +108,9 @@ const Project = () => {
                 <Image
                   alt="gallery"
                   className="absolute inset-0 w-full h-full object-cover object-center"
-                  src={require("../../../public/assets/picture/quiz.png")}
+                  src={("/assets/picture/quiz.png")}
+                  width={400}  // Dynamic value with curly brackets
+                  height={400}  // Dynamic value with curly brackets
                 />
                 <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-gray-200 opacity-0 hover:opacity-100">
                   <h2 className="tracking-widest text-sm title-font font-medium text-blue-500 mb-1">
@@ -112,7 +120,7 @@ const Project = () => {
                   The Quiz Game 
                   </h1>
                   <p className="leading-relaxed line-clamp-2">
-                  The Quiz Game project is an interactive and educational application designed to test users' knowledge across various topics. It features a series of multiple-choice questions with real-time feedback on answers. The game offers a user-friendly interface and incorporates scoring mechanisms to track performance and enhance engagement. This project highlights key programming skills such as question management, user interaction, and score calculation, providing a fun and informative experience for users of all ages.
+                  The Quiz Game project is an interactive and educational application designed to test users knowledge across various topics. It features a series of multiple-choice questions with real-time feedback on answers. The game offers a user-friendly interface and incorporates scoring mechanisms to track performance and enhance engagement. This project highlights key programming skills such as question management, user interaction, and score calculation, providing a fun and informative experience for users of all ages.
 
                   </p>
                   <Link
@@ -131,7 +139,9 @@ const Project = () => {
                 <Image
                   alt="gallery"
                   className="absolute inset-0 w-full h-full object-cover object-center"
-                  src={require("../../../public/assets/picture/png-student managment.png")}
+                  src={("/assets/picture/png-student managment.png")}
+                  width={400}  // Dynamic value with curly brackets
+                  height={400}  // Dynamic value with curly brackets
                 />
                 <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-gray-200 opacity-0 hover:opacity-100">
                   <h2 className="tracking-widest text-sm title-font font-medium text-blue-500 mb-1">
@@ -159,7 +169,9 @@ const Project = () => {
                 <Image
                   alt="gallery"
                   className="absolute inset-0 w-full h-full object-cover object-center"
-                  src={require("../../../public/assets/picture/oop.png")}
+                  src={("/assets/picture/oop.png")}
+                  width={400}  // Dynamic value with curly brackets
+                  height={400}  // Dynamic value with curly brackets
                 />
                 <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-gray-200 opacity-0 hover:opacity-100">
                   <h2 className="tracking-widest text-sm title-font font-medium text-blue-500 mb-1">
@@ -188,7 +200,9 @@ const Project = () => {
                 <Image
                   alt="gallery"
                   className="absolute inset-0 w-full h-full object-cover object-center"
-                  src={require("../../../public/assets/picture/to do.jpg")}
+                  src={("/assets/picture/to do.jpg")}
+                  width={400}  // Dynamic value with curly brackets
+                  height={400}  // Dynamic value with curly brackets
                 />
                 <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-gray-200 opacity-0 hover:opacity-100">
                   <h2 className="tracking-widest text-sm title-font font-medium text-blue-500 mb-1">
@@ -217,7 +231,9 @@ const Project = () => {
                 <Image
                   alt="gallery"
                   className="absolute inset-0 w-full h-full object-cover object-center"
-                  src={require("../../../public/assets/picture/gassing.jpg")}
+                  src={("/assets/picture/gassing.jpg")}
+                  width={400}  // Dynamic value with curly brackets
+                  height={400}  // Dynamic value with curly brackets
                 />
                 <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-gray-200 opacity-0 hover:opacity-100">
                   <h2 className="tracking-widest text-sm title-font font-medium text-blue-500 mb-1">
@@ -227,7 +243,7 @@ const Project = () => {
                   The Gassing Game
                   </h1>
                   <p className="leading-relaxed line-clamp-2">
-                  The Gassing Game project is an engaging and interactive application designed to challenge players' logic and deduction skills. The game presents users with a random number or word to guess within a limited number of attempts. Featuring a user-friendly interface, it provides real-time feedback and hints to enhance the gaming experience. This project highlights core programming principles such as random number generation, user input handling, and game logic implementation, offering both entertainment and educational value. </p>
+                  The Gassing Game project is an engaging and interactive application designed to challenge players logic and deduction skills. The game presents users with a random number or word to guess within a limited number of attempts. Featuring a user-friendly interface, it provides real-time feedback and hints to enhance the gaming experience. This project highlights core programming principles such as random number generation, user input handling, and game logic implementation, offering both entertainment and educational value. </p>
 
                   <Link
                     target="_blank"
@@ -247,7 +263,9 @@ const Project = () => {
                 <Image
                   alt="gallery"
                   className="absolute inset-0 w-full h-full object-cover object-center"
-                  src={require("../../../public/assets/picture/wc.png")}
+                  src={("/assets/picture/wc.png")}
+                  width={400}  // Dynamic value with curly brackets
+                  height={400}  // Dynamic value with curly brackets
                 />
                 <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-gray-200 opacity-0 hover:opacity-100">
                   <h2 className="tracking-widest text-sm title-font font-medium text-blue-500 mb-1">

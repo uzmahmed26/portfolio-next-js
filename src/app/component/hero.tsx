@@ -28,7 +28,7 @@ const Hero = () => {
           </h1>
           <div className="w-[100px] h-[2px] bg-blue-700"></div>
           <p className="mb-8 leading-relaxed text-blue-950 text-lg">
-          As a frontend developer and graphic designer, I'm passionate about creating visually stunning and user-friendly experiences that bring people's ideas to life. With a strong foundation in web development principles and best practices, I've honed my skills in HTML, CSS, JavaScript, and other relevant technologies. Throughout my academic journey, I've consistently sought out opportunities to apply my knowledge and enhance my skills through personal projects and internships.
+          As a frontend developer and graphic designer, I am passionate about creating visually stunning and user-friendly experiences that bring people&lsquo;s ideas to life. With a strong foundation in web development principles and best practice&lsquo;s, I&lsquo;ve honed my skills in HTML, CSS, JavaScript, and other relevant technologies. Throughout my academic journey, I&lsquo;ve consistently sought out opportunities to apply my knowledge and enhance my skills through personal projects and internships.
           </p>
           <div className="flex justify-center">
             <Link href={"#Contact"}>
@@ -49,9 +49,10 @@ const Hero = () => {
   <Image
     className="object-cover object-center rounded mx-auto w-full h-auto"
     alt="hero"
+    src={("/assets/picture/dp.png")}
     height={100}
     width={400}
-    src={require("../../../public/assets/picture/dp.png")}
+   
   />
 </motion.div>
 </div>   

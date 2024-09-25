@@ -11,7 +11,7 @@ const About = () => {
             <Image
               className="object-cover object-center rounded mx-auto w-[400px] h-[400px]"
               alt="hero"
-              src={require("../../../public/assets/picture/dp1.jpeg")}
+              src={("/assets/picture/dp1.jpeg")}
               width={300}
               height={500}
             />
@@ -21,7 +21,7 @@ const About = () => {
               About Me
             </h1>
             <p className="mb-5 leading-relaxed">
-            I am a passionate Graphic Designer and Frontend Developer with a keen eye for detail and a love for creating visually engaging and user-friendly digital experiences. Currently, I am enhancing my skills as a student of W.3 Metaverse, where I’m exploring the future of web technologies. 
+            I am a passionate Graphic Designer and Frontend Developer with a keen eye for detail and a love for creating visually engaging and user-friendly digital experiences. Currently, I am enhancing my skills as a student of W.3 Metaverse, where I am exploring the future of web technologies. 
             </p>
             <p className="mb-5 leading-relaxed">
             My expertise lies in Next.js, where I build modern, performant web applications that are both dynamic and responsive. Balancing creativity and functionality, I aim to bridge the gap between design and code, constantly pushing the boundaries of web development.
